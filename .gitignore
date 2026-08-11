@@ -12,9 +12,9 @@ target/
 .settings
 .springBeans
 .sts4-cache
-.application-*.yml
+application.yml
+application-*.yml
 !application-example.yml
-
 # Compiled class file
 *.class
 
