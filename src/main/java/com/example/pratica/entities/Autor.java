@@ -1,7 +1,7 @@
 package com.example.pratica.entities;
 
 
-import com.example.pratica.NationalityTypes;
+import com.example.pratica.enums.NationalityTypes;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package com.example.pratica;
+package com.example.pratica.enums;
 
 public enum NationalityTypes {
     BRAZIL,
