@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/biblioteca
+    username: postgres
+    password: luizsql@2006
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update   # Pode ser: none, validate, update, create, create-drop
+    show-sql: true       # Exibe SQL no console
+    properties:
+      hibernate:
+        format_sql: true # Formata SQL no log
+server:
+  port: 8080
